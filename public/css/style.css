@@ -1,0 +1,126 @@
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: #f4f6f8;
+color: #333;
+}
+.header {
+background: #1f3b57;
+color: white;
+padding: 20px;
+text-align: center;
+}
+.header nav {
+margin-top: 10px;
+}
+.header nav a {
+color: white;
+text-decoration: none;
+margin: 0 10px;
+font-weight: bold;
+}
+.header nav a:hover {
+text-decoration: underline;
+}
+.container {
+width: 80%;
+margin: 30px auto;
+}
+.card {
+background: white;
+padding: 25px;
+border-radius: 12px;
+box-shadow: 0 4px 12px rgba(0,0,0,0.10);
+}
+.form-group {
+margin-bottom: 15px;
+}
+label {
+display: block;
+font-weight: bold;
+margin-bottom: 5px;
+}
+input {
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 8px;
+}
+.btn {
+display: inline-block;
+background: #198754;
+color: white;
+padding: 10px 15px;
+border-radius: 8px;
+text-decoration: none;
+border: none;
+cursor: pointer;
+}
+.btn:hover {
+background: #146c43;
+}
+.btn-secondary {
+background: #6c757d;
+}
+.btn-secondary:hover {
+background: #565e64;
+}
+.alert-success {
+background: #d1e7dd;
+color: #0f5132;
+padding: 12px;
+border-radius: 8px;
+margin-bottom: 15px;
+}
+.table {
+width: 100%;
+border-collapse: collapse;
+background: white;
+}
+.table th {
+background: #1f3b57;
+color: white;
+padding: 12px;
+}
+.table td {
+padding: 12px;
+border-bottom: 1px solid #ddd;
+text-align: center;
+}
+.table tr:hover {
+background: #f1f1f1;
+}
+.actions {
+margin-bottom: 15px;
+}
+.footer {
+text-align: center;
+padding: 15px;
+background: #1f3b57;
+color: white;
+margin-top: 40px;
+}
+
+.pagination-nav { margin-top: 1.25rem; }
+.pagination-nav nav[aria-label="Pagination Navigation"] > div:first-child { display: none; }
+.pagination-nav nav[aria-label="Pagination Navigation"] > div:last-child {
+    display: flex; flex-wrap: wrap; align-items: center;
+    justify-content: space-between; gap: 0.75rem;
+}
+.pagination-nav nav[aria-label="Pagination Navigation"] p { color: #555; font-size: 0.875rem; margin: 0; }
+.pagination-nav nav[aria-label="Pagination Navigation"] a,
+.pagination-nav nav[aria-label="Pagination Navigation"] span[aria-disabled="true"] > span,
+.pagination-nav nav[aria-label="Pagination Navigation"] span[aria-current="page"] > span {
+    display: inline-flex; align-items: center; padding: 0.4rem 0.8rem;
+    font-size: 0.875rem; border: 1px solid #d1d5db; background: #fff;
+    color: #374151; text-decoration: none; line-height: 1.25;
+    transition: background .15s; border-radius: 4px;
+}
+.pagination-nav nav[aria-label="Pagination Navigation"] a:hover { background: #f3f4f6; }
+.pagination-nav nav[aria-label="Pagination Navigation"] span[aria-current="page"] > span {
+    background: #1f3b57; border-color: #1f3b57; color: #fff;
+}
+.pagination-nav nav[aria-label="Pagination Navigation"] span[aria-disabled="true"] > span {
+    color: #9ca3af; cursor: default;
+}
+.pagination-nav nav[aria-label="Pagination Navigation"] svg { width: 1rem; height: 1rem; }
