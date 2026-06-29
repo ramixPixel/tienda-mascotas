@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <title>@yield('title', 'Sistema de Mascotas')</title>
 <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+<script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
 <header class="header">
